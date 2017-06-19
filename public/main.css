@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    background-image: url("background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: 'Lato', monospace;
+    }
+    .noteTitle {
+      background: black;
+      color: white;
+      text-align: center;
+      font-family: 'Lato';
+    }
+    #wrapper{
+      width:960px;
+      margin: 0 auto;
+      padding-top: 5%;
+    }
+    #articles{
+      width:60%;
+      height:700px;
+      display:inline-block;
+      overflow: auto;
+    }
+    #notes{
+      width:30%;
+      float:right;
+    }
+    textarea, input{
+      display:block;
+      width:100%;
+      background-color: black;
+      color: white;
+    }
+    input{
+      height:32px;
+      font-size: 20px;
+    }
+    textarea{
+      height:400px;
+      font-size: 18px;
+    }
